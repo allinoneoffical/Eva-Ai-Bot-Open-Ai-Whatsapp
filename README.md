@@ -7,10 +7,15 @@ NOTE: DON'T MESS UP WITH INDEX.JS FILE.
 
 Install [nodejs] (https://nodejs.org/en/download/)
   and [git bash] (https://git-scm.com/downloads)
+
 `` `Bash
+
 $ git clone https://github.com/AbhiWisdom/Eva-Ai-Bot-Open-Ai-Whatsapp
+
 $ CD WA-OPANAI
+
 $ NPM Install
+
 $ node index.js
 
 How to get OpenAI API?
