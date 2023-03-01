@@ -104,7 +104,7 @@ module.exports = sansekai = async (client, m, chatUpdate, store) => {
             m.reply(`${response.data.choices[0].text}`);
           } catch (err) {
             console.log(err);
-            m.reply("Eva warmly welcomes you to his group for timely update;- https://chat.whatsapp.com/GRAqTVOeupmKwX3mGL4Haz .Consider showing your appreciation with a small monetary donation to my Developer 🫶. My UPI is liviya@apl :" + err);
+            m.reply("Eva :" + err);
           }
           break;
         case "img": case "ai-img": case "image": case "images":
@@ -124,7 +124,7 @@ module.exports = sansekai = async (client, m, chatUpdate, store) => {
             client.sendImage(from, response.data.data[0].url, text, mek);
           } catch (err) {
             console.log(err);
-            m.reply("Your donations 💸 will help us to continue our work and make a real difference in the world of AI. Consider showing your appreciation with a small monetary donation; so that I can always be with you to help 🫶. My UPI is abhiraj.0844@waaxis :"+ err);
+            m.reply("Eva :"+ err);
           }
           break;
         default: {
