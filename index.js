@@ -1,5 +1,5 @@
 const sessionName = "yusril";
-const donet = "https://app.cosmofeed.com/vp/63a48160676db1002c399e37";
+const donet = "";
 const owner = ["917082714235"];
 const {
   default: sansekaiConnect,
