@@ -27,7 +27,7 @@ module.exports = sansekai = async (client, m, chatUpdate, store) => {
         : "";
     var budy = typeof m.text == "string" ? m.text : "";
     // var prefix = /^[\\/!#.]/gi.test(body) ? body.match(/^[\\/!#.]/gi) : "/"
-    var prefix = /^[\\/!#.]/gi.test(body) ? body.match(/^[\\/!#.]/gi) : "/";
+    var prefix = /^[\\/!#.]/gi.test(body) ? body.match(/^[\\/!#.]/gi) : "";
     const isCmd2 = body.startsWith(prefix);
     const command = body.replace(prefix, "").trim().split(/ +/).shift().toLowerCase();
     const args = body.trim().split(/ +/).slice(1);
@@ -72,11 +72,9 @@ module.exports = sansekai = async (client, m, chatUpdate, store) => {
       switch (command) {
         case "help":
         case "menu":
-          m.reply(`*Developed by Abhiraj 🫶*
+          m.reply(`*Developed by Sushant 🫶*
             
 *(Eva Ai Bot 😊)*
-   *Eva warmly welcomes you to his group for timely update*;- 
-   https://chat.whatsapp.com/GRAqTVOeupmKwX3mGL4Haz
           
   Cmd: ${prefix}eva
   Ask me anything. 
